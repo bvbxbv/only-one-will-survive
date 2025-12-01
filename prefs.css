@@ -1,0 +1,23 @@
+.flat-entry {
+	background-color: transparent;
+	border: 1px solid #555;
+	border-radius: 4px;
+	padding: 4px;
+	color: #eee;
+}
+
+.flat-entry:focus {
+	border-color: #4a90d9;
+	background-color: #3a3f42;
+}
+
+.flat-button {
+	background-color: #4a90d9;
+	border-radius: 4px;
+	color: white;
+	padding: 4px 8px;
+}
+
+.flat-button:hover {
+	background-color: #357abd;
+}

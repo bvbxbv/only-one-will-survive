@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.only-one-will-survive" path="/org/gnome/shell/extensions/only-one-will-survive/">
+    <key name="ignore-list" type="as">
+      <default>[]</default>
+      <summary>Ignore list of apps</summary>
+      <description>Apps to not minimize</description>
+    </key>
+  </schema>
+</schemalist>
