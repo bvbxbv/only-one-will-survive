@@ -1,0 +1,7 @@
+{
+  "uuid": "only-one-will-survive@bvbxbv",
+  "name": "Only One Will Survive",
+  "description": "minimize all windows except active",
+  "shell-version": ["42", "43", "44", "45"],
+  "version": 1
+}
