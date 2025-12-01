@@ -21,7 +21,7 @@ function buildPrefsWidget() {
 	const entry = new Gtk.Entry({ text: "" });
 	entry.get_style_context().add_class("flat-entry");
 	entry.get_style_context().add_provider(GtkCssProvider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
-	entry.hexpand = true; // растягиваем поле ввода
+	entry.hexpand = true;
 
 	const addButton = new Gtk.Button({ label: "Add" });
 	addButton.get_style_context().add_class("flat-button");
@@ -43,7 +43,7 @@ function buildPrefsWidget() {
 			const row = new Gtk.ListBoxRow();
 
 			const hbox = new Gtk.Box({ orientation: Gtk.Orientation.HORIZONTAL, spacing: 10 });
-			hbox.hexpand = true; // растягиваем горизонтально весь HBox
+			hbox.hexpand = true;
 
 			const label = new Gtk.Label({ label: item, xalign: 0 });
 			label.hexpand = true;
